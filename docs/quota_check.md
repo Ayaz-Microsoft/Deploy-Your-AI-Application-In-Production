@@ -21,7 +21,7 @@ eastus, uksouth, eastus2, northcentralus, swedencentral, westus, westus2, southc
 - Only model(s) provided → The script will check for those models in the default regions.
 - Only region(s) provided → The script will check default models in the specified regions.
 - Both models and regions provided → The script will check those models in the specified regions.
-- `--verbose` passed → Enables detailed logging output for debugging and traceability.
+- `--verbose` passed → Enables  detailed logging output for debugging and traceability.
   
 ## **Input Formats**
 > Use the --models, --regions, and --verbose options for parameter handling:
