@@ -10,7 +10,7 @@ param name string
 @description('Specifies the location for all the Azure resources.')
 param location string
 
-@description('Specifies the AI embedding model to use for the AI Foundry deployment. This is the model used for text embeddings in AI Foundry. NOTE: Any adjustments to this parameter\'s values must also be made on the aiDeploymentsLocation metadata in the main.bicep file.') 
+@description('Specifies the  AI embedding model to use for the AI Foundry deployment. This is the model used for text embeddings in AI Foundry. NOTE: Any adjustments to this parameter\'s values must also be made on the aiDeploymentsLocation metadata in the main.bicep file.') 
 param aiEmbeddingModelDeployment modelDeploymentType = {
   name: 'text-embedding-3-small'
   modelName: 'text-embedding-3-small'
